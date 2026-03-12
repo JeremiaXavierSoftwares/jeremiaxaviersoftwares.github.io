@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JXCorp - Engineering the Future of Software</title>
-    <meta name="description" content="JXCorp, the software division of Jeremia Xavier. We build creative, high-performance software solutions that tackle complexity across industries.">
+    <title>Sync | Engineering the Future of Software</title>
+    <meta name="description" content="Sync: High-performance software engineering. We build creative, resilient solutions that transform complexity into seamless digital experiences.">
+    
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    
     <link rel="icon" type="image/svg+xml" href="/logo.svg">
     <link rel="preload" href="bg-dark.jpg" as="image">
 </head>
@@ -16,17 +20,18 @@
 
     <header class="glassmorphism-nav">
         <div class="container header-content">
-            <a href="#hero" class="logo" aria-label="JXCorp Home">JXCorp</a>
+            <a href="#hero" class="logo" aria-label="Sync Home">Sync</a>
             
             <button id="menu-toggle" class="glass-button mobile-only" aria-label="Toggle Navigation Menu">
-                &#9776; </button>
+                &#9776;
+            </button>
             
             <nav id="main-nav" aria-label="Main Navigation">
                 <ul class="nav-list">
-                    <li><a href="#philosophy" class="nav-link">Approach</a></li>
-                    <li><a href="#products" class="nav-link">Solutions</a></li>
-                    <li><a href="#impact" class="nav-link">Scale</a></li>
-                    <li><a href="#team" class="nav-link">Team</a></li>
+                    <li><a href="#approach" class="nav-link">Approach</a></li>
+                    <li><a href="#solutions" class="nav-link">Solutions</a></li>
+                    <li><a href="#scale" class="nav-link">Scale</a></li>
+                    <li><a href="#leadership" class="nav-link">Leadership</a></li>
                     <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
             </nav>
@@ -44,121 +49,82 @@
 
         <section id="hero" class="hero-section">
             <div class="hero-visual-placeholder" aria-hidden="false">
-                <img src="./images/banner.webp" alt="Abstract visualization of massive data streams and complex algorithms, representing high-level problem solving.">
+                <img src="./images/banner.webp" alt="Abstract visualization of synchronized data streams and neural pathways.">
             </div>
 
             <div class="container">
                 <h1 class="hero-headline">
-                    We <span class="accent-text">Engineer</span> Software Beyond the <span class="accent-text">Curve</span>.
+                    In <span class="accent-text">Sync</span> with the Future of <span class="accent-text">Engineering</span>.
                 </h1>
-                <p class="hero-subtext">JXCorp is a collective of specialized developers building high-performance, non-typical solutions for the next decade of technology.</p>
-                <a href="#philosophy" class="cta-button">Explore Our Approach</a>
+                <p class="hero-subtext">Sync is a high-octane engineering collective building the non-typical, high-performance systems that will power the next decade.</p>
+                <div class="hero-actions">
+                    <a href="#approach" class="cta-button">Our Methodology</a>
+                </div>
             </div>
-            </section>
+        </section>
 
-        <section id="philosophy" class="content-section feature-section">
+        <section id="approach" class="content-section feature-section">
             <div class="container">
-                <h2>Our <span class="accent-text">First-Principles</span> Approach</h2>
-                <p class="section-description">We reject conventional constraints, focusing instead on technical excellence and deep, developer-led insight to solve complex problems.</p>
+                <h2>The <span class="accent-text">Sync</span> Philosophy</h2>
+                <p class="section-description">We move beyond standard frameworks to solve problems from first principles.</p>
 
                 <div class="feature-grid">
                     <article class="glassmorphism-card feature-card">
                         <h3>Technical Autonomy</h3>
-                        <p>Our solutions are built from the ground up, prioritizing performance and maintainability over off-the-shelf integration.</p>
+                        <p>We eliminate dependency bloat. By building core logic from the ground up, we ensure maximum performance and long-term stability.</p>
                     </article>
                     <article class="glassmorphism-card feature-card">
-                        <h3>Complexity as a Feature</h3>
-                        <p>We embrace difficult domains, treating complexity as a requirement to be managed and abstracted, not avoided.</p>
+                        <h3>Managed Complexity</h3>
+                        <p>Complexity isn't a hurdle; it's a competitive advantage. We architect systems that embrace intricate logic while maintaining internal harmony.</p>
                     </article>
                     <article class="glassmorphism-card feature-card">
-                        <h3>Elegant Scale</h3>
-                        <p>Software should feel intuitive, regardless of the scale. We design for the end-user, delivering magic behind a simple interface.</p>
+                        <h3>Seamless Scalability</h3>
+                        <p>True synchronization means software that feels as fast and intuitive at 10 million users as it does at ten.</p>
                     </article>
                 </div>
             </div>
         </section>
 
-        <!-- <section id="products" class="content-section products-section">
-            <div class="container">
-                <h2>Featured <span class="accent-text">Development Solutions</span></h2>
-                <div class="product-showcase">
-                    
-                    <div class="product-item dark-glass-panel">
-                        <div class="product-info">
-                            <h3>Project Stellaris: Generative Architecture</h3>
-                            <p>An autonomous system for modeling, generating, and optimizing massive backend architecture, resulting in unparalleled deployment speed and resilience.</p>
-                            <a href="#" class="inline-link">View Engineering Details &rarr;</a>
-                        </div>
-                        <div class="product-visual-placeholder">
-                            <img src="https://via.placeholder.com/600x400/101010/8A2BE2?text=Complex+Code+Visualization" alt="Screenshot of Stellaris, a sophisticated dark-mode dashboard showing predictive code flows.">
-                        </div>
-                    </div>
-
-                    <div class="product-item dark-glass-panel reversed">
-                        <div class="product-info">
-                            <h3>Project Echelon: Real-Time Visualization Layer</h3>
-                            <p>A high-performance rendering engine capable of aggregating real-time data feeds into rich, interactive, and customizable 3D operational environments.</p>
-                            <a href="#" class="inline-link">Explore Visualization Demos &rarr;</a>
-                        </div>
-                        <div class="product-visual-placeholder">
-                            <img src="https://via.placeholder.com/600x400/101010/00FFFF?text=Interactive+UI+Dashboard" alt="Screenshot of Echelon, a dark, detailed map interface with data overlays.">
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </section> -->
-        
-        <section id="impact" class="content-section impact-section">
+        <section id="scale" class="content-section impact-section">
             <div class="container text-center">
-                <h2 class="impact-headline">Delivering <span class="accent-text">Uncommon</span> Capability.</h2>
+                <h2 class="impact-headline">Engineered for <span class="accent-text">Absolute</span> Reliability.</h2>
                 <div class="stats-grid">
                     <div class="stat-item">
                         <div class="stat-number">20M+</div>
-                        <div class="stat-label">Code Base LOC Managed</div>
+                        <div class="stat-label">Lines of Critical Code</div>
                     </div>
                     <div class="stat-item">
                         <div class="stat-number">99.99%</div>
-                        <div class="stat-label">System Performance Baseline</div>
+                        <div class="stat-label">Uptime Baseline</div>
                     </div>
                     <div class="stat-item">
                         <div class="stat-number">150+</div>
-                        <div class="stat-label">Custom Tooling and Libraries</div>
+                        <div class="stat-label">Proprietary Libraries</div>
                     </div>
                 </div>
             </div>
         </section>
 
-
-        <section id="team" class="content-section team-section">
+        <section id="leadership" class="content-section team-section">
             <div class="container">
-                <h2>Engineering <span class="accent-text">Leadership</span></h2>
-                <p class="section-description">A collective of senior engineers and architects focused on long-term systemic impact.</p>
+                <h2>Founding <span class="accent-text">Architect</span></h2>
+                <p class="section-description">A specialized team focused on systemic impact and technical breakthrough.</p>
                 <div class="team-grid">
                     <div class="team-member">
-                        <div class="team-photo-placeholder"><img src="./images/jeremia.jpg" alt="Photo of Jeremia Xavier"></div>
+                        <div class="team-photo-placeholder"><img src="./images/jeremia.jpg" alt="Jeremia Xavier"></div>
                         <h4>Jeremia Xavier</h4>
-                        <p class="role">Chief Architect & Developer-Lead</p>
+                        <p class="role">Founder & CEO</p>
                     </div>
-                    <div class="team-member">
-                        <div class="team-photo-placeholder"><img src="./images/abhinav.jpeg" alt="Photo of Abhinav Sajeev"></div>
-                        <h4>Abhinav Sajeev</h4>
-                        <p class="role">Head of Applied R&D</p>
-                    </div>
-                    <div class="team-member">
-                        <div class="team-photo-placeholder"></div>
-                        <h4>Tejas</h4>
-                        <p class="role">Director of Digital Experience</p>
-                    </div>
+                   
                 </div>
             </div>
         </section>
 
         <section id="contact" class="content-section cta-section">
             <div class="container glassmorphism-card">
-                <h2>Need <span class="accent-text">Exceptional</span> Software?</h2>
-                <p>If your project demands custom, high-performance engineering that goes beyond the typical stack, let's discuss your requirements.</p>
-                <a href="mailto:jeremiaxavier@zohomail.in" class="cta-button large-cta">Begin a Dialogue</a>
+                <h2>Ready to <span class="accent-text">Sync</span>?</h2>
+                <p>If your project requires engineering that defies the typical, let’s build something exceptional together.</p>
+                <a href="mailto:jeremiaxavier@zohomail.in" class="cta-button large-cta">Initialize Consultation</a>
             </div>
         </section>
 
@@ -166,12 +132,14 @@
 
     <footer class="glassmorphism-nav">
         <div class="container footer-content">
-            <p>&copy; 2025 JXCorp. Engineered for Complexity.</p>
+            <p>&copy; 2026 Sync. All Systems Nominal.</p>
             <div class="footer-links">
-                <!-- <a href="https://jeremiaxavier.web.app" aria-label="Official Website">official</a>
-                <a href="https://jeremiaxavier.github.io" aria-label="About Jeremia Xavier">About Jeremia Xavier</a> -->
+                <a href="#" class="nav-link">Privacy</a>
+                <a href="#" class="nav-link">Terms</a>
             </div>
-            <a href="#hero" class="back-to-top" aria-label="Back to top of page">^ Top</a>
+            <a href="#hero" class="back-to-top" aria-label="Back to top">
+                <span aria-hidden="true">↑</span> Top
+            </a>
         </div>
     </footer>
 
