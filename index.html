@@ -3,145 +3,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sync | Engineering the Future of Software</title>
-    <meta name="description" content="Sync: High-performance software engineering. We build creative, resilient solutions that transform complexity into seamless digital experiences.">
+    <title>Sync — Engineering the Future</title>
+    <meta name="description" content="Sync: A high-performance engineering collective building the resilient software systems of the next decade.">
     
-    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
     
-    <link rel="icon" type="image/svg+xml" href="/logo.svg">
-    <link rel="preload" href="bg-dark.jpg" as="image">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="logo.svg">
 </head>
-<body>
+<body class="bg-black text-white antialiased">
 
+    <div class="glow-overlay"></div>
     <div id="magic-cursor"></div>
 
-    <header class="glassmorphism-nav">
-        <div class="container header-content">
-            <a href="#hero" class="logo" aria-label="Sync Home">
-    <img src="https://jeremiaxavier.github.io/jstatic/sync-high-resolution-logo-transparent(1)-Photoroom.png" alt="Sync Logo" style="height: 40px; width: auto;">
-</a>
-            
-            <button id="menu-toggle" class="glass-button mobile-only" aria-label="Toggle Navigation Menu">
-                &#9776;
-            </button>
-            
-            <nav id="main-nav" aria-label="Main Navigation">
-                <ul class="nav-list">
-                    <li><a href="#approach" class="nav-link">Approach</a></li>
-                    <li><a href="#solutions" class="nav-link">Solutions</a></li>
-                    <li><a href="#scale" class="nav-link">Scale</a></li>
-                    <li><a href="#leadership" class="nav-link">Leadership</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
-                </ul>
-            </nav>
-            
-            <div class="utility-controls">
-                <button id="theme-toggle" aria-label="Toggle Dark/Light Mode" class="glass-button">
-                    <span class="icon-moon" aria-hidden="true">🌙</span>
-                    <span class="icon-sun" aria-hidden="true" style="display:none;">☀️</span>
-                </button>
+    <header class="fixed-nav">
+        <nav class="container nav-wrapper">
+            <a href="#hero" class="brand-logo">
+                <img src="https://jeremiaxavier.github.io/jstatic/sync-high-resolution-logo-transparent(1)-Photoroom.png" alt="Sync Logo">
+            </a>
+            <div class="nav-links">
+                <a href="#approach">Logic</a>
+                <a href="#scale">Metrics</a>
+                <a href="#contact" class="nav-cta">Start Terminal</a>
             </div>
-        </div>
+        </nav>
     </header>
 
-    <main id="smooth-scroll-wrapper">
-
-        <section id="hero" class="hero-section">
-            <div class="hero-visual-placeholder" aria-hidden="false">
-                <img src="./images/banner.webp" alt="Abstract visualization of synchronized data streams and neural pathways.">
-            </div>
-
+    <main>
+        <section id="hero" class="hero-v2">
             <div class="container">
-                <h1 class="hero-headline">
-                    In <span class="accent-text">Sync</span> with the Future of <span class="accent-text">Engineering</span>.
+                <div class="badge">v2.0 Initialized</div>
+                <h1 class="mega-title">
+                    Software <br>
+                    <span class="text-outline">Without</span> <br>
+                    Friction.
                 </h1>
-                <p class="hero-subtext">Sync is a high-octane engineering collective building the non-typical, high-performance systems that will power the next decade.</p>
-                <div class="hero-actions">
-                    <a href="#approach" class="cta-button">Our Methodology</a>
+                <p class="hero-description">
+                    Sync is a specialized engineering lab. We build high-performance systems for domains where complexity is the default and failure is not an option.
+                </p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn-primary">Initialize Dialogue</a>
+                    <a href="#approach" class="btn-secondary">View Framework</a>
                 </div>
             </div>
         </section>
 
-        <section id="approach" class="content-section feature-section">
-            <div class="container">
-                <h2>The <span class="accent-text">Sync</span> Philosophy</h2>
-                <p class="section-description">We move beyond standard frameworks to solve problems from first principles.</p>
+        <section id="approach" class="container section-padding">
+            <div class="grid-layout">
+                <div class="bento-card bento-main">
+                    <div class="card-content">
+                        <span class="card-label">Philosophy</span>
+                        <h2>First Principles Engineering</h2>
+                        <p>We strip away the noise of modern "bloatware" to build core logic that is lean, fast, and vertically integrated.</p>
+                    </div>
+                </div>
 
-                <div class="feature-grid">
-                    <article class="glassmorphism-card feature-card">
+                <div class="bento-card bento-tall">
+                    <div class="card-content">
+                        <span class="card-label">01</span>
                         <h3>Technical Autonomy</h3>
-                        <p>We eliminate dependency bloat. By building core logic from the ground up, we ensure maximum performance and long-term stability.</p>
-                    </article>
-                    <article class="glassmorphism-card feature-card">
-                        <h3>Managed Complexity</h3>
-                        <p>Complexity isn't a hurdle; it's a competitive advantage. We architect systems that embrace intricate logic while maintaining internal harmony.</p>
-                    </article>
-                    <article class="glassmorphism-card feature-card">
-                        <h3>Seamless Scalability</h3>
-                        <p>True synchronization means software that feels as fast and intuitive at 10 million users as it does at ten.</p>
-                    </article>
+                        <p>Total control over the stack. No black-box dependencies.</p>
+                    </div>
+                    <div class="card-visual">
+                        </div>
                 </div>
-            </div>
-        </section>
 
-        <section id="scale" class="content-section impact-section">
-            <div class="container text-center">
-                <h2 class="impact-headline">Engineered for <span class="accent-text">Absolute</span> Reliability.</h2>
-                <div class="stats-grid">
-                    <div class="stat-item">
-                        <div class="stat-number">20M+</div>
-                        <div class="stat-label">Lines of Critical Code</div>
+                <div class="bento-card">
+                    <div class="card-content">
+                        <span class="card-label">02</span>
+                        <h3>Latent Scale</h3>
+                        <p>Architected for millions, optimized for the individual.</p>
                     </div>
-                    <div class="stat-item">
-                        <div class="stat-number">99.99%</div>
-                        <div class="stat-label">Uptime Baseline</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">150+</div>
-                        <div class="stat-label">Proprietary Libraries</div>
+                </div>
+
+                <div class="bento-card accent-card">
+                    <div class="card-content">
+                        <span class="card-label">03</span>
+                        <h3>Harmony</h3>
+                        <p>Syncing human intent with machine performance.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="leadership" class="content-section team-section">
-            <div class="container">
-                <h2>Founding <span class="accent-text">Architect</span></h2>
-                <p class="section-description">A specialized team focused on systemic impact and technical breakthrough.</p>
-                <div class="team-grid">
-                    <div class="team-member">
-                        <div class="team-photo-placeholder"><img src="./images/jeremia.jpg" alt="Jeremia Xavier"></div>
-                        <h4>Jeremia Xavier</h4>
-                        <p class="role">Founder & CEO</p>
-                    </div>
-                   
+        <section id="scale" class="container stats-v2">
+            <div class="stats-header">
+                <h2>The Standard.</h2>
+            </div>
+            <div class="stats-row">
+                <div class="stat-box">
+                    <span class="stat-val">99.99</span>
+                    <span class="stat-tag">Uptime Baseline</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-val">20M+</span>
+                    <span class="stat-tag">Critical Lines</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-val">150+</span>
+                    <span class="stat-tag">Custom Libs</span>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="content-section cta-section">
-            <div class="container glassmorphism-card">
-                <h2>Ready to <span class="accent-text">Sync</span>?</h2>
-                <p>If your project requires engineering that defies the typical, let’s build something exceptional together.</p>
-                <a href="mailto:jeremiaxavier@zohomail.in" class="cta-button large-cta">Initialize Consultation</a>
+        <section id="leadership" class="container section-padding">
+            <div class="founder-layout">
+                <div class="founder-image">
+                    <img src="./images/jeremia.jpg" alt="Jeremia Xavier">
+                </div>
+                <div class="founder-text">
+                    <span class="card-label">Founder & CEO</span>
+                    <h2>Jeremia Xavier</h2>
+                    <p>"Sync was founded on the idea that software should be an extension of thought—unencumbered by the limitations of traditional development cycles."</p>
+                </div>
             </div>
         </section>
 
+        <section id="contact" class="container section-padding">
+            <div class="terminal-cta">
+                <div class="terminal-header">
+                    <div class="dots"><span></span><span></span><span></span></div>
+                    <span class="terminal-title">contact.sh</span>
+                </div>
+                <div class="terminal-body">
+                    <p class="typewriter">> Ready to optimize your infrastructure?</p>
+                    <a href="mailto:jeremiaxavier@zohomail.in" class="terminal-link">Execute: Initialize_Consultation.exe</a>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer class="glassmorphism-nav">
-        <div class="container footer-content">
-            <p>&copy; 2026 Sync. All Systems Nominal.</p>
-            <div class="footer-links">
-                <a href="#" class="nav-link">Privacy</a>
-                <a href="#" class="nav-link">Terms</a>
+    <footer class="footer-v2">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <img src="https://jeremiaxavier.github.io/jstatic/sync-high-resolution-logo-transparent(1)-Photoroom.png" alt="Sync Logo" class="footer-logo">
+                <p>All Systems Nominal. © 2026</p>
             </div>
-            <a href="#hero" class="back-to-top" aria-label="Back to top">
-                <span aria-hidden="true">↑</span> Top
-            </a>
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>Internal</h4>
+                    <a href="#approach">Logic</a>
+                    <a href="#scale">Metrics</a>
+                </div>
+                <div class="link-group">
+                    <h4>Legal</h4>
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                </div>
+            </div>
         </div>
     </footer>
 
